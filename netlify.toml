@@ -1,0 +1,9 @@
+[build]
+  publish = "tools/mission-control-web"
+  command = "node -e \"const fs=require('fs'),crypto=require('crypto'),p='tools/mission-control-web';const h=crypto.createHash('sha256').update(fs.readFileSync(p+'/index.html')).update(fs.readFileSync(p+'/wan-multiplayer.js')).digest('hex');const d=new Date();const v='1.2.'+(d.getUTCMonth()+1)+String(d.getUTCDate()).padStart(2,'0')+'.'+String(d.getUTCHours()).padStart(2,'0')+String(d.getUTCMinutes()).padStart(2,'0');fs.writeFileSync(p+'/ota-manifest.json',JSON.stringify({version:v,buildTimestamp:Math.floor(Date.now()/1000),sha256:h,files:['index.html','wan-multiplayer.js'],apkUrl:'/MissionRacer3D.apk'},null,2));\""
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Cache-Control = "no-cache, no-store, must-revalidate"

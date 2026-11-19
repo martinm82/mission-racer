@@ -1,0 +1,27 @@
+# Unity generated directories
+unity/[Ll]ibrary/
+unity/[Tt]emp/
+unity/[Oo]bj/
+unity/[Bb]uild/
+unity/[Bb]uilds/
+unity/[Ll]ogs/
+unity/[Uu]serSettings/
+unity/*.csproj
+unity/*.sln
+unity/*.slnx
+unity/.vscode/
+
+# Build & SDK artifacts
+build/android-sdk
+build/android-sdk/
+build/ios-derived/
+build/*.xcarchive/
+build/export/
+build/adhoc-export/
+build/*.keystore
+build/*.idsig
+!build/MissionRacer3D.apk
+
+# Node & OS
+node_modules/
+.DS_Store

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 856 540" width="856" height="540">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#090d16"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="50%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="neonGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Card Body -->
+  <rect x="10" y="10" width="836" height="520" rx="36" fill="url(#bgGrad)" stroke="#38bdf8" stroke-width="4"/>
+
+  <!-- Top Header Banner -->
+  <rect x="10" y="10" width="836" height="88" rx="36" fill="#1e293b"/>
+  <rect x="10" y="60" width="836" height="38" fill="#1e293b"/>
+  <line x1="10" y1="98" x2="846" y2="98" stroke="url(#neonGrad)" stroke-width="4"/>
+
+  <text x="50" y="58" font-family="-apple-system, Roboto, sans-serif" font-weight="900" font-size="28" fill="#ffffff" letter-spacing="3">MISSION RACER 3D</text>
+  <text x="50" y="84" font-family="-apple-system, Roboto, sans-serif" font-weight="700" font-size="14" fill="#00e5ff" letter-spacing="2">OFFICIAL DRIVER RACING LICENSE • FIA FAMILY LEAGUE</text>
+  
+  <!-- Contactless NFC Wave Logo -->
+  <path d="M 770 40 A 18 18 0 0 1 770 70 M 780 34 A 26 26 0 0 1 780 76 M 790 28 A 34 34 0 0 1 790 82" fill="none" stroke="#00e5ff" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Driver Photo / Avatar Box -->
+  <rect x="50" y="130" width="180" height="230" rx="20" fill="#111827" stroke="#38bdf8" stroke-width="3"/>
+  <text x="140" y="240" font-size="70" text-anchor="middle">⚡</text>
+  <text x="140" y="320" font-family="sans-serif" font-weight="800" font-size="16" fill="#38bdf8" text-anchor="middle">ROOKIE DRIFTER</text>
+
+  <!-- Driver Details -->
+  <text x="260" y="155" font-family="sans-serif" font-size="12" font-weight="700" fill="#94a3b8" letter-spacing="2">CALLSIGN / DRIVER NAME</text>
+  <text x="260" y="200" font-family="sans-serif" font-size="42" font-weight="900" fill="#ffffff">LIGHTNING 7</text>
+
+  <text x="260" y="245" font-family="sans-serif" font-size="12" font-weight="700" fill="#94a3b8" letter-spacing="2">LICENSE CODE</text>
+  <text x="260" y="275" font-family="sans-serif" font-size="22" font-weight="800" fill="#00e5ff">MR-07-ROOKIE</text>
+
+  <text x="520" y="245" font-family="sans-serif" font-size="12" font-weight="700" fill="#94a3b8" letter-spacing="2">AGE CLASS</text>
+  <text x="520" y="275" font-family="sans-serif" font-size="22" font-weight="800" fill="#ffffff">AGE 7 • CLASS A</text>
+
+  <text x="260" y="325" font-family="sans-serif" font-size="12" font-weight="700" fill="#94a3b8" letter-spacing="2">SIGNATURE CAR</text>
+  <text x="260" y="355" font-family="sans-serif" font-size="20" font-weight="800" fill="#34d399">MUD CRUSHER 4x4 / V8</text>
+
+  <text x="520" y="325" font-family="sans-serif" font-size="12" font-weight="700" fill="#94a3b8" letter-spacing="2">PIT STOP STATUS</text>
+  <text x="520" y="355" font-family="sans-serif" font-size="20" font-weight="800" fill="url(#goldGrad)">ACTIVE COMPETITOR ★★★</text>
+
+  <!-- Gold Chip Emulation -->
+  <rect x="710" y="140" width="70" height="55" rx="10" fill="url(#goldGrad)" stroke="#b45309" stroke-width="2"/>
+  <line x1="710" y1="168" x2="780" y2="168" stroke="#78350f" stroke-width="1.5"/>
+  <line x1="745" y1="140" x2="745" y2="195" stroke="#78350f" stroke-width="1.5"/>
+
+  <!-- Bottom Barcode & League Watermark -->
+  <rect x="50" y="405" width="740" height="85" rx="16" fill="#090d16" stroke="#1e293b" stroke-width="2"/>
+  
+  <!-- Simulated Barcode Lines -->
+  <g fill="#f8fafc" transform="translate(70, 420)">
+    <rect x="0" y="0" width="4" height="40"/><rect x="8" y="0" width="8" height="40"/><rect x="20" y="0" width="3" height="40"/><rect x="28" y="0" width="6" height="40"/>
+    <rect x="40" y="0" width="10" height="40"/><rect x="55" y="0" width="4" height="40"/><rect x="64" y="0" width="7" height="40"/><rect x="76" y="0" width="3" height="40"/>
+    <rect x="85" y="0" width="8" height="40"/><rect x="98" y="0" width="4" height="40"/><rect x="108" y="0" width="10" height="40"/><rect x="124" y="0" width="5" height="40"/>
+    <rect x="135" y="0" width="7" height="40"/><rect x="148" y="0" width="3" height="40"/><rect x="156" y="0" width="9" height="40"/><rect x="170" y="0" width="4" height="40"/>
+    <text x="85" y="54" font-family="monospace" font-size="11" fill="#94a3b8" text-anchor="middle">* 04-8E-7F-A3-12-80 *</text>
+  </g>
+
+  <text x="760" y="455" font-family="sans-serif" font-weight="900" font-size="20" fill="#38bdf8" text-anchor="end">FGP-2026-WORLD</text>
+  <text x="760" y="475" font-family="sans-serif" font-weight="700" font-size="11" fill="#64748b" text-anchor="end">ISSUED BY DAD • COMMISSIONER OF RACING</text>
+</svg>

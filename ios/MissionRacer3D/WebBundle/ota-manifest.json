@@ -1,0 +1,10 @@
+{
+  "version": "1.2.1119.1718",
+  "buildTimestamp": 1795108680,
+  "sha256": "f94d455c4ff19279a9e6c70708f64878235414d670e7ce7efb3e3d7d267052e7",
+  "files": [
+    "index.html",
+    "wan-multiplayer.js"
+  ],
+  "apkUrl": "MissionRacer3D.apk"
+}

@@ -1,0 +1,4 @@
+app_identifier("com.migasiew.missionracer3d")
+apple_id(ENV["APPLE_ID"] || "")
+team_id(ENV["APPLE_TEAM_ID"] || "")
+itc_team_id(ENV["ITC_TEAM_ID"] || ENV["APPLE_TEAM_ID"] || "")

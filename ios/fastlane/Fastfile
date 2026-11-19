@@ -1,0 +1,26 @@
+default_platform(:ios)
+
+platform :ios do
+  desc "Sync 3D WebGL assets, build signed XCArchive, and upload Mission Racer 3D to Apple TestFlight"
+  lane :beta do
+    sh("../../scripts/deploy_testflight.sh --sync-only")
+
+    increment_build_number(
+      xcodeproj: "MissionRacer3D.xcodeproj"
+    ) if ENV["AUTO_INCREMENT_BUILD"] == "1"
+
+    build_app(
+      project: "MissionRacer3D.xcodeproj",
+      scheme: "MissionRacer3D",
+      configuration: "Release",
+      export_method: "app-store",
+      output_directory: "../build",
+      output_name: "MissionRacer3D.ipa",
+      xcargs: "-allowProvisioningUpdates"
+    )
+
+    upload_to_testflight(
+      skip_waiting_for_build_processing: true
+    )
+  end
+end
